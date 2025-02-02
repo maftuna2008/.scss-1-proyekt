@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1273px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 512px;
+
+    &__item {
+        display: flex;
+        gap: 40px;
+
+        &__list {
+            color: rgb(31, 21, 52);
+            font-family: Mulish;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0%;
+            text-align: left;
+            /* 1f1534-hyfen */
+            opacity: 0.5;
+
+            &__link:hover {
+                color: rgb(31, 21, 52);
+                font-family: Mulish;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 23px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+        }
+    }
+}
+
+// main----> start
+// section1
+.main {
+    display: flex;
+    gap: 112px;
+    margin-top: 80px;
+    margin-bottom: 178px;
+
+    &__left {
+        margin-top: 70px;
+
+        &__txt {
+            color: rgb(0, 0, 0);
+            font-family: Mulish;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 56px;
+            width: 426px;
+            height: 112px;
+            margin-bottom: 25px;
+
+            &__txt1 {
+                color: rgb(125, 121, 135);
+                font-family: Mulish;
+                font-size: 21px;
+                font-weight: 300;
+                line-height: 32px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-top: 25px;
+                margin-bottom: 45px;
+
+                &__btn {
+                    color: rgb(255, 255, 255);
+                    font-family: Mulish;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 60px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    border-radius: 55px;
+                    background: rgb(69, 143, 246);
+                    padding: 3px 40px 3px 40px;
+                    margin-top: 45px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+
+.section2 {
+    &__services {
+        color: rgb(0, 0, 0);
+        font-family: Mulish;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0%;
+        text-align: center;
+
+        &__text {
+            color: rgb(125, 121, 135);
+            font-family: Mulish;
+            font-size: 18px;
+            font-weight: 300;
+            text-align: center;
+            width: 952px;
+            height: 60px;
+            margin-left: 150px;
+            margin-top: 61px;
+            margin-bottom: 78px;
+        }
+    }
+}
+
+.praduct {
+    &__tree {
+        display: flex;
+        gap: 34px;
+        margin-right: -25px;
+        margin-bottom: 37px;
+        z-index: 10;
+
+        &__bacround {
+            width: 350px;
+            height: 354px;
+            border-radius: 20px;
+            box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+            background: rgb(255, 255, 255);
+            background-color: rgb(255, 255, 255);
+            padding-left: 42px;
+            padding-top: 51px;
+            padding-bottom: 47px;
+
+            &__online {
+                z-index: 20;
+
+                &__h6 {
+                    color: rgb(0, 0, 0);
+                    font-family: Mulish;
+                    font-size: 24px;
+                    font-weight: 700;
+                    width: 196px;
+                    height: 56px;
+                    z-index: 20;
+
+                    &__praduct {
+                        color: rgb(125, 121, 135);
+                        font-family: Mulish;
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 28px;
+                        width: 261px;
+                        height: 84px;
+                        z-index: 20;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.learnmore {
+    color: rgb(69, 143, 246);
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 55px;
+    background: transparent;
+    padding: 2px 40px 2px 40px;
+    margin-top: 74px;
+    margin-left:470px;
+    margin-bottom: 176px;
+    border-color: rgb(69, 143, 246) ;
+}
