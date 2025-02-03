@@ -130,10 +130,12 @@ a {
 }
 
 .praduct {
+    padding-left: 130px;
+
     &__tree {
         display: flex;
         gap: 34px;
-        margin-right: -25px;
+        // margin-left:1225
         margin-bottom: 37px;
         z-index: 10;
 
@@ -189,7 +191,142 @@ a {
     background: transparent;
     padding: 2px 40px 2px 40px;
     margin-top: 74px;
-    margin-left:470px;
+    margin-left: 500px;
     margin-bottom: 176px;
-    border-color: rgb(69, 143, 246) ;
+    border-color: rgb(69, 143, 246);
+}
+
+// section3
+.two {
+    display: flex;
+    gap: 142px;
+    margin-bottom: 215px;
+
+    &__rightimg {
+        &__lefttxt {
+            padding-top: 57px;
+
+            &__h1txt {
+                color: rgb(0, 0, 0);
+                font-family: Mulish;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 56px;
+                text-align: left;
+                width: 481px;
+                height: 112px;
+
+                &__ptxt {
+                    color: rgb(125, 121, 135);
+                    font-family: Mulish;
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 30px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    width: 450px;
+                    height: 120px;
+
+                    &__button {
+                        color: rgb(69, 143, 246);
+                        font-family: Mulish;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 60px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        border-radius: 55px;
+                        background: transparent;
+                        padding: 2px 40px 2px 40px;
+                        border-color: rgb(69, 143, 246);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// section3==4
+
+// section5
+.bacroundimg {
+    background-image: url("../imeges/bacroundimg.png");
+    width: 1120px;
+    height: 425px;
+    padding-top: 61px;
+    padding-bottom: 112px;
+    padding-right: 116px;
+    padding-left: 120px;
+
+    &__htext {
+        color: rgb(255, 255, 255);
+        font-family: Mulish;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: auto;
+        width: 522px;
+        height: 48px;
+        margin-bottom: 30px;
+
+        &__rightandleft {
+            display: flex;
+            gap: 100px;
+
+            &__imgandtext {
+
+                &__rightimg {
+                    border-radius: 50%;
+                    display: flex;
+                    gap: 30px;
+
+                    &__df {
+                        padding-top: 40px;
+                        width: 289px;
+                        height: 141px;
+
+                        &__dfp {
+                            color: rgb(255, 255, 255);
+                            font-family: Mulish;
+                            font-size: 22px;
+                            font-weight: 700;
+                            line-height: 48px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            width: 184px;
+                            height: 48px;
+
+                            &__dfpp {
+                                color: rgba(255, 255, 255, 0.85);
+                                font-family: Mulish;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 48px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                                width: 119px;
+                                height: 48px;
+
+                                &__leftp {
+                                    color: rgba(255, 255, 255, 0.9);
+                                    font-family: Mulish;
+                                    font-size: 19px;
+                                    font-weight: 400;
+                                    line-height: 30px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                    width: 420px;
+                                    height: 120px;
+                                    margin-top: 40px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
