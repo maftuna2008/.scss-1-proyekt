@@ -177,7 +177,7 @@ a {
 
 .two {
   display: flex;
-  gap: 142px;
+  gap: 100px;
   margin-bottom: 215px;
 }
 .two__rightimg__lefttxt {
@@ -226,6 +226,7 @@ a {
   padding-bottom: 112px;
   padding-right: 116px;
   padding-left: 120px;
+  margin: 0 auto;
 }
 .bacroundimg__htext {
   color: rgb(255, 255, 255);
@@ -287,4 +288,94 @@ a {
   width: 420px;
   height: 120px;
   margin-top: 40px;
+}
+.bacroundimg__htext__rightandleft__imgandtext__rightimg__df__dfp__dfpp__leftp__vector {
+  margin-left: 450px;
+  margin-top: 39px;
+  margin-bottom: 222px;
+}
+
+.count__aligen {
+  color: rgb(0, 0, 0);
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.count__aligen__color {
+  display: flex;
+  gap: 34px;
+  margin-bottom: 69px;
+  margin-left: 70px;
+}
+.count__aligen__color__size {
+  width: 350px;
+  height: 512px;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  background: rgb(255, 255, 255);
+}
+.count__aligen__color__size__top {
+  border-radius: 30px 30px 0px 0px;
+}
+.count__aligen__color__size__top__h5txt {
+  color: rgb(0, 0, 0);
+  font-family: Mulish;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 251px;
+  height: 64px;
+  margin-left: 33px;
+  margin-top: 21px;
+}
+.count__aligen__color__size__top__h5txt__bottom {
+  color: rgb(125, 121, 135);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 25px;
+  width: 266px;
+  height: 84px;
+  margin-left: 33px;
+}
+.count__aligen__color__size__top__h5txt__bottom__readmore {
+  color: rgb(64, 137, 237);
+  font-family: Mulish;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 33px;
+}
+.count__aligen__color__size__top__h5txt__bottom__readmore__viev {
+  color: rgb(69, 143, 246);
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 55px;
+  background: transparent;
+  padding: 2px 40px 2px 40px;
+  border-color: rgb(69, 143, 246);
+  margin-left: 550px;
+  margin-bottom: 201px;
+}
+
+.footer {
+  background: linear-gradient(211.68deg, rgb(103, 195, 243) 8.549%, rgb(90, 152, 242) 70.494%);
+  width: 1273px;
+  height: 432px;
 }/*# sourceMappingURL=main.css.map */
